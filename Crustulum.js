@@ -354,7 +354,7 @@ var Crustulum = {
     ticks: {
         'autoClicker': {
             'intervalId': null,
-            'rate': 50,
+            'rate': 1,
             'onTick': ()=>{
                 if (!Crustulum.getConfig('autoClicker')) return;
                 Game.ClickCookie();
